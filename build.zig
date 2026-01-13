@@ -136,7 +136,7 @@ pub fn build(b: *std.Build) void {
         .style = .blank,
         .include_path = "ffconf.h",
     }, .{
-        .FFCONF_DEF = 5385,
+        .FFCONF_DEF = 80386,
     });
 
     switch (config.volumes) {
